@@ -27,22 +27,22 @@ void loop() {
   float sum = 100 * (num - firstChek) / firstChek;
   Serial.print(String(num) + " this is now chek, ");
   if (sum > 1 && sum < 20) {
-    Serial.print(" small jump ");
-  }
-  if (sum > 20 && sum < 40) {
-    Serial.print(" jump ");
-  }
-  if (sum > 40 && sum < 60) {
-    Serial.print(" big jump ");
-  }
-  if (sum < -1 && sum > -20) {
     Serial.print(" small down ");
   }
-  if (sum < -20 && sum > -40) {
+  if (sum > 20 && sum < 40) {
     Serial.print(" down ");
   }
-  if (sum < -40 && sum > -60) {
+  if (sum > 40 && sum < 60) {
     Serial.print(" big down ");
+  }
+  if (sum < -1 && sum > -20) {
+    Serial.print(" small jump ");
+  }
+  if (sum < -20 && sum > -40) {
+    Serial.print(" jump ");
+  }
+  if (sum < -40 && sum > -60) {
+    Serial.print(" big jump ");
   }
 
   Serial.println(String(sum) + "% this is the precent change");
