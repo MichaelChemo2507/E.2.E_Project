@@ -1,1 +1,39 @@
 
+* {
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  display: flex;
+  background-color: blanchedalmond;
+}
+#Wrapper {
+  width: 1400px;
+}
+#gameScreen {
+  width: 1000px;
+  height: 600px;
+  margin-top: 25%;
+  background-color: chocolate;
+}
+.Map {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  background-color: aquamarine;
+}
+.Hud {
+  top: 5%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.Hud .Points,
+.Hud .Health,
+.Hud .Timer {
+  width: fit-content;
+  height: 100%;
+}
