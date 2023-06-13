@@ -1,4 +1,3 @@
-
 * {
   margin: 0px;
   align-items: center;
@@ -12,6 +11,7 @@ body {
   width: 1400px;
 }
 #gameScreen {
+  position: relative;
   width: 1000px;
   height: 600px;
   margin-top: 25%;
@@ -36,4 +36,30 @@ body {
 .Hud .Timer {
   width: fit-content;
   height: 100%;
+}
+.Menu {
+  background-color: aliceblue;
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  flex-direction: column;
+}
+.img {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+.input {
+  text-align: center;
+  font-size: x-large;
+  width: 400px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 25px;
+}
+.btn {
+  width: 200px;
+  margin: 20em;
+  height: 50px;
+  margin: 10px;
 }
