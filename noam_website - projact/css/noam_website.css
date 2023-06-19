@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0px auto;
+}
+/*---------------- navBar ----------------*/
+#navBar {
+  direction: rtl;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(53, 53, 52);
+  position: fixed;
+}
+
+#navBar .navBarLinks {
+  padding: 25px;
+  font-size: 20px;
+}
+
+.navBarLinks:hover {
+  background-color: white;
+  color: rgb(53, 53, 52);
+}
+
+/*---------------- main ----------------*/
+
+.gridContainer {
+  display: grid;
+  width: 100%;
+  height: 2800px;
+  grid-template-rows: 3fr 2fr 2fr 2fr 2fr 3fr 2fr;
+}
+
+.gridContainer .box {
+  text-align: center;
+  font-size: 50px;
+  background-color: rgb(87, 85, 85);
+  border: 1px solid white;
+}
+
+header {
+  background-image: url(../images/LOGO.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position-y: 55px;
+}
+
+header .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(94, 93, 93, 0.7);
+}
